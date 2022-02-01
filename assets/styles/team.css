@@ -47,9 +47,9 @@ body {
   width: 100%;
   opacity: 0.1;
   z-index:  -99;
-  transition: .5s ease;
+  transition: 0.2s all ease;
   /*background-color: #008CBA;*/
-  background: rgba(121,125,128,.5);
+  background: rgba(22, 22, 22, 0.7);
 }
 
 .one:hover .overlay-1 {
@@ -140,6 +140,11 @@ body {
 	margin: 10px;
 	color: #fff;
 }
+.social-bar i:hover {
+	color: rgb(155, 155, 155);
+	cursor: pointer;
+	transition: 0.2s all ease;
+}
 .team-grid-text {
 	color: #000;
 	display: flex;
@@ -160,4 +165,37 @@ body {
 }
 .team {
 	background: rgb(223, 223, 223);
+}
+.responsive-position {
+	display: none;
+	font-size: 0.9rem;
+	color: rgb(208, 230, 14);
+}
+@media screen and (max-width: 960px){
+	.subtitle {
+		font-size: 1.2rem;
+	}
+	.social-bar {
+		width: 30px;
+	}
+	.responsive-position {
+		display: block;
+	}
+	.buffer-grid {
+		display: none;
+	}
+	.social-bar i {
+		font-size: 1rem;
+	}
+	.team {
+		width: 95% !important;
+		background-color: rgb(204, 204, 204);
+	}
+	.team-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	.team-grid-text {
+		display: none;
+	}
 }

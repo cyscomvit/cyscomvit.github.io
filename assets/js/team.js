@@ -15,7 +15,6 @@ function locateNode(arr) {
 }
 
 var delNode = navList[locateNode(navList)];
-console.log(delNode);
 
 navList.forEach(item => {
 	item.onmouseenter = function(){
@@ -40,7 +39,6 @@ gsap.to(".nav", {
 })
 const toggler = document.getElementById("nav-toggler");
 toggler.addEventListener("click", () => {
-    console.log("Clicked!");
     document.getElementById("dropdown").style.display == "flex" ? (
      document.getElementById("dropdown").style.animationName="dropup",document.getElementById("dropdown").style.display = "none" ): (document.getElementById("dropdown").style.display = "flex",
     document.getElementById("dropdown").style.animationName = "dropdown")

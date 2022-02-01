@@ -21,10 +21,6 @@ gsap.to(".nav", {
     ease: Power2.easeInOut
 })
 
-$(window).scroll(function() {
-var theta = $(window).scrollTop() / 600 % (2 * Math.PI);
-$('#logo').css({ transform: 'rotate(' + theta + 'rad)' });
-});
 const ck = document.getElementById("checkbox");
 ck.addEventListener("change", () => {
     document.getElementsByTagName("nav")[0].classList.toggle("dark");
@@ -32,6 +28,7 @@ ck.addEventListener("change", () => {
     document.getElementsByTagName("main")[0].classList.toggle("dark");
     document.querySelector(".section-1").classList.toggle("dark");
     document.querySelector(".section-2").classList.toggle("dark");
+    document.querySelector(".section-3").classList.toggle("dark");
     document.querySelectorAll(".timeline__content").forEach(item => {
         item.classList.toggle("dark");
     });
