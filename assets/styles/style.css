@@ -18,6 +18,7 @@ a {
 }
 body {
   overflow-x: hidden;
+  position: relative;
 }
 
 .toggler {
@@ -247,15 +248,16 @@ nav.dark ul li {
   width: 100%;
   padding: 10px 10px;
   background-color: white;
-  position: fixed;
-  top: 0px;
+  position: sticky;
+  top: 70px;
+  display: none;
+  left: 0px;
   z-index: 999;
   color: #000;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   height: 200px;
-  left: 0px;
-  display: none;
+  opacity: 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -281,7 +283,7 @@ nav.dark ul li {
   background-color: #dbdbdb;
 }
 
-@-webkit-keyframes dropdown {
+ @-webkit-keyframes dropdown {
   0% {
     display: none;
     opacity:0;
@@ -295,16 +297,16 @@ nav.dark ul li {
 
 @keyframes dropdown {
   0% {
-    display: none;
-    top: -1000px;
+    opacity: 0;
   }
   100% {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
-    top: -725px;
+    opacity: 1;
+    top: 70px;
   }
-}
+} 
 
 @-webkit-keyframes dropup {
   0% {
