@@ -644,7 +644,8 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-bottom: 0px;
 }
 footer p {
   margin: 0;
