@@ -31,14 +31,14 @@ body {
     opacity: 0;
 }
 .checkbox:checked + .label .ball{
-    transform: translateX(47px);
+    transform: translateX(42px);
 }
 .label {
     background-color: rgb(34, 28, 28);
     display: flex;
     border-radius: 50px;
-    height: 20px;
-    width: 70px;
+    height: 28px;
+    width: 65px;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
