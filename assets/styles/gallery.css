@@ -28,6 +28,7 @@
 #portfolio .work-item .image-holder {
   overflow: hidden;
   position: relative;
+  text-align:center;
 }
 #portfolio .work-item .image-holder img {
   height: 200px;
