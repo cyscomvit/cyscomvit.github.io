@@ -9,31 +9,39 @@
   font-weight: 700;
   margin: 0 0 10px 0;
 }
+
 #portfolio .title span {
   font-size: 15px;
   font-weight: 300;
 }
+
 #portfolio .work-item {
   margin-top: 40px;
 }
+
 #portfolio .work-item h4 {
   font-size: 16px;
   font-weight: 600;
   color: #222;
   margin: 20px 0 5px 0;
 }
+
 #portfolio .work-item span {
   color: #f55858;
 }
+
 #portfolio .work-item .image-holder {
   overflow: hidden;
   position: relative;
-  text-align:center;
+  text-align: center;
 }
+
 #portfolio .work-item .image-holder img {
-  height: 200px;
+  height: 100%;
   width: 100%;
+  object-fit: scale-down;
 }
+
 #portfolio .work-item .image-holder .overlay {
   zoom: 1;
   filter: alpha(opacity=0);
@@ -54,6 +62,7 @@
   left: 0;
   text-align: center;
 }
+
 #portfolio .work-item .image-holder .overlay a {
   zoom: 1;
   filter: alpha(opacity=0);
@@ -75,8 +84,9 @@
   display: block;
   text-align: center;
   line-height: 50px;
-  padding:  5px;
+  padding: 5px;
 }
+
 #portfolio .work-item .image-holder:hover .overlay {
   zoom: 1.2;
   filter: alpha(opacity=100);
@@ -85,6 +95,7 @@
   opacity: 0.6;
   visibility: visible;
 }
+
 #portfolio .work-item .image-holder:hover .overlay a {
   zoom: 1;
   filter: alpha(opacity=100);
@@ -93,21 +104,25 @@
   opacity: 1;
   visibility: visible;
 }
+
 #portfolio .filters {
   margin-top: 60px;
   margin-bottom: 40px;
   list-style: none;
   padding: 0;
 }
+
 #portfolio .filters li {
   display: inline-block;
   margin: 0 15px;
   font-size: 14px;
   cursor: pointer;
 }
+
 #portfolio .filters li.active {
   color: #f55858;
 }
+
 #portfolio #Grid .mix {
   display: none;
   opacity: 0;
@@ -115,11 +130,11 @@
 
 .overlay-txt {
   position: absolute;
-  top:  50%;
-  left:  50%;
-  transform: translate(-50%,-50%);
-  color:  #fff;
-  z-index:  101;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 101;
   visibility: hidden;
 }
 
