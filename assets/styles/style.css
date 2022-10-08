@@ -634,6 +634,19 @@ main.dark .main-wrapper .left .button {
     background: #f2962f !important;
     margin: 10px auto;
 }
+
+.image-holder{
+    min-width: 325px;;
+    min-height: 215px;
+}
+
+@media (min-width: 400px) {
+    .image-holder{
+        min-width: 300px;
+        min-height: 200px;
+    }
+}
+
 footer {
     background-color: #001e27;
     color: #fff;
