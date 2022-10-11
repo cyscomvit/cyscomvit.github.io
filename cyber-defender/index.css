@@ -355,19 +355,19 @@ footer {
 }
 footer p {
   margin: 0;
-  color: #993cf0;
+  color: black;
   font-size: 1rem;
 }
 .footer-links {
   display: flex;
   margin-top: 5px;
-  color: #993cf0;
+  color: black;
 }
 .footer-links i {
   margin-right: 12px;
 }
 .footer-links i:hover {
-  color: #993cf0;
+  color: black;
   cursor: pointer;
   transition: 0.2s all ease;
 }
