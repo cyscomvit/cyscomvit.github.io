@@ -167,7 +167,8 @@ logo img {
 .main-heading {
   font-family: 'Kanit', sans-serif;
   font-weight: 900;
-  font-size: 6rem;
+  font-size:350%;
+  /* font-size: 6rem; */
   color: rgb(34, 34, 34);
 }
 @media screen and (max-width: 640px){
@@ -289,6 +290,12 @@ h5 {
   color: rgb(255, 255, 255);
   cursor: pointer;
   margin-top: 5px;
+  
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 100ms;
+  
+
 }
 
 @keyframes fadeIn {
