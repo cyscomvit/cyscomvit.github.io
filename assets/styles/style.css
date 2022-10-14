@@ -334,7 +334,7 @@ nav.dark ul li {
     }
 }
 
-main {
+.main {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -345,7 +345,7 @@ main {
     padding-top: 70px;
 }
 
-main .main-wrapper {
+.main .main-wrapper {
     width: 100%;
     margin: 0px auto;
     min-height: 100vh;
@@ -360,7 +360,7 @@ main .main-wrapper {
 }
 
 @media screen and (max-width: 1200px) {
-    main .main-wrapper {
+    .main .main-wrapper {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -375,7 +375,7 @@ main .main-wrapper {
     }
 }
 
-main .main-wrapper .left {
+.main .main-wrapper .left {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -391,12 +391,12 @@ main .main-wrapper .left {
 }
 
 @media screen and (max-width: 1200px) {
-    main .main-wrapper .left {
+    .main .main-wrapper .left {
         width: 90%;
     }
 }
 
-main .main-wrapper .left #click {
+.main .main-wrapper .left #click {
     color: #9b0000;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -405,19 +405,19 @@ main .main-wrapper .left #click {
     cursor: pointer;
 }
 
-main .main-wrapper .left h1 {
+.main .main-wrapper .left h1 {
     color: #003b4d;
     font-weight: 900;
     font-size: clamp(3.5rem, 5vw, 5rem);
 }
 
 @media screen and (max-width: 1200px) {
-    main .main-wrapper .left h1 {
+    .main .main-wrapper .left h1 {
         text-align: center;
     }
 }
 
-main .main-wrapper .left p {
+.main .main-wrapper .left p {
     font-size: 1.3rem;
     margin-top: 30px;
     line-height: 30px;
@@ -425,7 +425,7 @@ main .main-wrapper .left p {
     color: #222222;
 }
 
-main .main-wrapper .left .button {
+.main .main-wrapper .left .button {
     background-color: #f2962f;
     border: none;
     color: black;
@@ -443,13 +443,13 @@ main .main-wrapper .left .button {
 }
 
 @media screen and (max-width: 1200px) {
-    main .main-wrapper .left .button {
+    .main .main-wrapper .left .button {
         margin: 0 auto;
         display: block;
     }
 }
 
-main .main-wrapper .right {
+.main .main-wrapper .right {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -467,40 +467,40 @@ main .main-wrapper .right {
 }
 
 @media screen and (max-width: 1200px) {
-    main .main-wrapper .right {
+    .main .main-wrapper .right {
         width: 90%;
     }
 }
 
-main .main-wrapper .right img {
+.main .main-wrapper .right img {
     width: 500px;
 }
 
 @media screen and (max-width: 1200px) {
-    main .main-wrapper .right img {
+    .main .main-wrapper .right img {
         width: 100px !important;
     }
 }
 
-main.dark {
+.main.dark {
     background-image: url("../images/bg-dark.png");
     -webkit-transition: 0.2s all ease;
     transition: 0.2s all ease;
 }
 
-main.dark .main-wrapper .left {
+.main.dark .main-wrapper .left {
     color: #fff;
 }
 
-main.dark .main-wrapper .left h1 {
+.main.dark .main-wrapper .left h1 {
     color: #fff;
 }
 
-main.dark .main-wrapper .left p {
+.main.dark .main-wrapper .left p {
     color: #fff;
 }
 
-main.dark .main-wrapper .left .button {
+.main.dark .main-wrapper .left .button {
     background: #ffffff;
     color: #000;
 }
@@ -532,6 +532,18 @@ main.dark .main-wrapper .left .button {
     border-radius: 5px;
     background: #f2962f !important;
     margin: 10px auto;
+}
+
+.image-holder{
+    min-width: 325px;;
+    min-height: 215px;
+}
+
+@media (min-width: 400px) {
+    .image-holder{
+        min-width: 300px;
+        min-height: 200px;
+    }
 }
 
 .section-1 .info-card img {
@@ -661,6 +673,7 @@ footer {
     margin-top: 60px;
     margin-bottom: 0px;
 }
+
 footer p {
     margin: 0;
     color: rgb(185, 185, 185);
