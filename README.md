@@ -16,7 +16,7 @@ https://hacktoberfest.digitalocean.com/
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/your-username/hacktoberfest.git
+git clone <url of the repository you want to clone>
 ```
 
 * Create a branch
