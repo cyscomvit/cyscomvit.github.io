@@ -1,1 +1,1 @@
-<h4>🎃 HacktoberFest Starter Project 🎃</h4>
+<h1>🎃 HacktoberFest Starter Project 🎃</h1>
