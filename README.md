@@ -5,6 +5,10 @@ This repository is open to all members of the GitHub community. Any member may c
 
 https://github.com/orgs/cyscomvit/repositories
 
+## About CYSCom VIT
+Started off with a few people having cyber safety in mind, the club now boasts a big gathering of members and associates alike. Join us on our mission to make the cyber space a safer place.
+We are mission driven individuals, where we aim to spread awareness about cybersecurity by blogs, open-source and events.
+
 ## What is Hacktoberfest?
 * A month-long celebration from October 1st - 31st sponsored by Digital Ocean and GitHub to get people involved in Open Source. Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
 
