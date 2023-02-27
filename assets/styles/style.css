@@ -534,13 +534,13 @@ nav.dark ul li {
     margin: 10px auto;
 }
 
-.image-holder{
-    min-width: 325px;;
+.image-holder {
+    min-width: 325px;
     min-height: 215px;
 }
 
 @media (min-width: 400px) {
-    .image-holder{
+    .image-holder {
         min-width: 300px;
         min-height: 200px;
     }
@@ -647,13 +647,13 @@ nav.dark ul li {
     margin: 10px auto;
 }
 
-.image-holder{
-    min-width: 325px;;
+.image-holder {
+    min-width: 325px;
     min-height: 215px;
 }
 
 @media (min-width: 400px) {
-    .image-holder{
+    .image-holder {
         min-width: 300px;
         min-height: 200px;
     }
@@ -708,7 +708,7 @@ footer p {
 }
 
 /* back to top button */
-.to-top{
+.to-top {
     background: rgb(3, 20, 70);
     position: fixed;
     bottom: 16px;
@@ -724,11 +724,10 @@ footer p {
     text-decoration: none;
     opacity: 0;
     pointer-events: none;
-    transition: all .4s;
-
+    transition: all 0.4s;
 }
 
-.to-top.active{
+.to-top.active {
     bottom: 32px;
     pointer-events: auto;
     opacity: 1;
