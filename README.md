@@ -1,4 +1,4 @@
-## About CYSCom VIT
+## About CYSCOM VIT
 
 We are a student chapter in [VIT Chennai](https://chennai.vit.ac.in). Started by a few people having cyber safety in mind, the club now boasts a big gathering of members and associates alike. Join us on our mission to make the cyber space a safer place. We are mission driven individuals, where we aim to spread awareness about cybersecurity by blogs, events and outreach sessions.
 
@@ -14,4 +14,3 @@ To contact us
  - Instagram - [@cyscomvit](https://instagram.com/cyscomvit)
  - Email - [cyscom@vit.ac.in](mailto:cyscom@vit.ac.in)
  Other contact methods are linked on the footer in our website
- 
