@@ -38,6 +38,26 @@ body {
     object-fit: cover;
 }
 
+.team-grid#old{
+    margin: 50px 20px;
+    position: relative;
+    max-height: 35vh;
+    height: 35vh;
+    max-width: 40vh;
+    width:40vh;
+    overflow: hidden;
+}
+
+.team-grid-text#old{
+    margin: 50px 20px;
+    position: relative;
+    max-height: 30vh;
+    height: 30vh;
+    overflow: hidden;
+}
+
+
+
 .overlay-1,
 .overlay-2,
 .overlay-3 {
@@ -157,6 +177,14 @@ body {
     position: relative;
     font-size: 3rem;
 }
+.team-grid2-text {
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    font-size: 1rem;
+}
 .notice {
     text-align: center;
     margin: 0rem;
@@ -203,3 +231,5 @@ body {
         display: none;
     }
 }
+
+
