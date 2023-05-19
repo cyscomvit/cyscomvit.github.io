@@ -4,7 +4,7 @@ We are a student chapter in [VIT Chennai](https://chennai.vit.ac.in). Started by
 
 ## About the repository
 
-This repository containes our [website](https://cyscomvit.com/), and our past events [Hackoverflow](https://cyscomvit.com/hackoverflow/) and [Cyber Defender](https://cyscomvit.com/cyber-defender).
+This repository containes our [website](https://cyscomvit.com/). It also contains our past events [Hackoverflow](https://cyscomvit.com/hackoverflow/) and [Cyber Defender](https://cyscomvit.com/cyber-defender).
 
 It is deployed automatically on every commit, using GitHub pages.
 
