@@ -53,7 +53,7 @@ document.getElementById("click").addEventListener('click', () => {
     })
     count += 1;
     if (count ==3){
-    document.getElementById("lock").setAttribute("src", "./assets/images/unlock.png");
+    document.getElementById("lock").setAttribute("src", "./assets/images/unlock.webp");
     }
 });
 const toggler = document.getElementById("nav-toggler");
